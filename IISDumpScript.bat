@@ -1,3 +1,5 @@
+::To run this program you have to put Procdump to c:\windows\system32 directory. This program will not run otherwise.
+
 ::PID DEGERINE GORE DUMP ALMA ISLEMU BU SATIRLARDA GERCEKLESIR
 
 ::APP POOL SORGULAMA EKRANI
