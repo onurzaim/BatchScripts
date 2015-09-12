@@ -1,3 +1,3 @@
 # BatchScripts
 
-# This is the place that you can see my batch scripts.
+This is the place that you can see my batch scripts.
