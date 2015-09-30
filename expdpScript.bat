@@ -19,3 +19,7 @@ move C:\OracleBackup\expdp\UYUMDB_%mydate%_%mytime%.rar C:\OracleBackup\%mydate%
 
 REM copy to an *nix system with pscp (download required)
 pscp -pw password C:\OracleBackup\%mydate%_%mytime%\UYUMDB_%mydate%_%mytime%.rar user@server.com:/home/user
+
+REM Delete dump files to save space
+del C:\OracleBackup\expdp\UYUMDB_%mydate%_%mytime%.dmp
+del C:\OracleBackup\expdp\UYUMLOG_%mydate%_%mytime%.dmp
